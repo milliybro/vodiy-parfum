@@ -6,7 +6,6 @@ import useLatestProducts from "@/store/latestProducts";
 import { useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import Loading from "../loading/Loading";
 
 const CarouselProduct = () => {
   const { data: latestProducts, getData: getLatestProducts } =

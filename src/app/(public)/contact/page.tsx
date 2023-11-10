@@ -2,13 +2,19 @@ import { Metadata } from "next";
 import "./style.scss";
 
 export const metadata: Metadata = {
-  title: "Vodiy perfume | Contact",
+  title: "Bog'lanish",
   description:
-    "Vodiy perfume is an e-commerce site developed by Azamat Abraev, a softwaree engineer based in Tashkent, Uzbekistan",
+    "Vodiy parfum | Biz haqimizda",
 };
 
 const ContactPage = () => {
-  return <div>ContactPage</div>;
+  return <section id="contact-page">
+    <h1>Biz bilan bog`lanish</h1>
+    <p>
+      Telegram:
+      <a href="#">Vodiy Parfum</a>
+    </p>
+     </section>
 };
 
 export default ContactPage;

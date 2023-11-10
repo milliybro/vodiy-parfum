@@ -1,13 +1,17 @@
 import { Metadata } from "next";
+import AllProducts from "@/components/allProducts/AllProductsCard";
+import "./style.scss"
 
 export const metadata: Metadata = {
-  title: "Vodiy perfume | Products",
+  title: "Barcha mahsulotlar",
   description:
-    "Vodiy perfume is an e-commerce site developed by Azamat Abraev, a softwaree engineer based in Tashkent, Uzbekistan",
+    "Vodiy parfum | Barcha mahsulotlar",
 };
 
 const AllProductsPage = () => {
-  return <div>AllProductsPage</div>;
+  return <section id="all-product-page">AllProductsPage
+  <AllProducts/>
+  </section>;
 };
 
 export default AllProductsPage;

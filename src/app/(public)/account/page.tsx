@@ -3,9 +3,9 @@ import { Metadata } from "next";
 import "./style.scss";
 
 export const metadata: Metadata = {
-  title: "Vodiy perfume | Account",
+  title: "Shaxsiy sahifa",
   description:
-    "Vodiy perfume is an e-commerce site developed by Azamat Abraev, a softwaree engineer based in Tashkent, Uzbekistan",
+    "Vodiy parfum | Shaxsiy sahifa",
 };
 
 const AccountPage = () => {
